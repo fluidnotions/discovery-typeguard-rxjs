@@ -1,0 +1,426 @@
+[
+    {
+      "_id": "5e8a7632253f5000301a6496",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "designations": [
+        "5e8442eb30063d00292025d9"
+      ],
+      "contactDetails": {
+        "contactNumber": "0834569856",
+        "altContactNumber": "03171444312",
+        "email": "bruce@wayne.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "43.2233214,-90.2915132",
+        "addressLocation": "Gotham, WI 53556, USA",
+        "streetViewImage": "",
+        "extraAddress": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d1466f73888080bd88ac4"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [
+        {
+          "__KEY__": "f39de64c-1dcd-d854-164e-49d8ccbd92ee",
+          "code": "14567"
+        },
+        {
+          "__KEY__": "45953dfe-d3e1-17a4-5151-761a9299d629",
+          "code": "43435"
+        },
+        {
+          "__KEY__": "f9f9de65-83ae-a624-72c3-defa33151f02",
+          "code": "5555"
+        }
+      ],
+      "title": "1",
+      "idNumber": "78984646161331669",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416074511,
+      "securityCode": 0,
+      "employeeNumber": "58245724",
+      "customerLink": "5e8a7a70253f5000301a64c8",
+      "dateofbirth": "1979-01-27T22:00:00.000Z",
+      "descriptiveTags": [
+        "5e86d5e2f12ee59d255b0c3c"
+      ],
+      "nextKinContact": "8529637415",
+      "nextKinName": "Alfred",
+      "nextKinRelationship": "Uncle"
+    },
+    {
+      "_id": "5e8a7693253f5000301a6497",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Peter ",
+      "lastName": "Parker",
+      "designations": [
+        "5e84431b30063d00292025da"
+      ],
+      "employeeNumber": "12345689",
+      "contactDetails": {
+        "contactNumber": "0835465465",
+        "altContactNumber": "0789632541",
+        "email": "peter@parker.com"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "29.95106579999999,-90.0715323",
+        "addressLocation": "New Orleans, LA, USA",
+        "streetViewImage": "",
+        "extraAddress": "",
+        "postalCode": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e980e9f962ec400751b7977"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "securityCode": 63979,
+      "title": "1",
+      "idNumber": "852369741258",
+      "dateofbirth": "1999-02-13T22:00:00.000Z",
+      "systemuser": "5b5ebc28389f0a50274e28da",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416075327,
+      "customerLink": "5e8a7cf8253f5000301a64c9",
+      "descriptiveTags": [
+        "5e86d623eb340ddf4eea7ce6"
+      ],
+      "nextKinContact": "0784569324",
+      "nextKinName": "MJ",
+      "nextKinRelationship": "Girlfriend"
+    },
+    {
+      "_id": "5e8a76d8253f5000301a6498",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Natasha",
+      "lastName": "Romanoff",
+      "designations": [
+        "5e84432830063d00292025db"
+      ],
+      "employeeNumber": "78954562325",
+      "contactDetails": {
+        "contactNumber": "0836543216",
+        "altContactNumber": "0846523963",
+        "email": "natasha@westvillespur.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "-29.8360738,30.9191109",
+        "addressLocation": "Menston Rd, Westville, Durban, 4001, South Africa",
+        "streetViewImage": "",
+        "extraAddress": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d150cf73888080bd88ac6"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [
+        {
+          "__KEY__": "6319ae5c-8d72-c111-93e8-c3c52afd05be",
+          "code": "784512"
+        }
+      ],
+      "securityCode": 16426,
+      "title": "3",
+      "idNumber": "852369741258",
+      "dateofbirth": "1979-01-27T22:00:00.000Z",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416075018,
+      "customerLink": "5e8a7a70253f5000301a64c8",
+      "descriptiveTags": [
+        "5e86d5feabd253518be56f74",
+        "5e86d60b687c77db87fb25d8"
+      ],
+      "systemuser": "5e8afd4604e1e3029a527ee0"
+    },
+    {
+      "_id": "5e8a7724253f5000301a6499",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Selina ",
+      "lastName": "Kyle",
+      "designations": [
+        "5e84435730063d00292025de"
+      ],
+      "employeeNumber": "96385741",
+      "contactDetails": {
+        "contactNumber": "0834568526"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "",
+        "addressLocation": "",
+        "streetViewImage": "",
+        "extraAddress": "",
+        "postalCode": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d15c1f73888080bd88ac7"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "securityCode": 37819,
+      "title": "3",
+      "idNumber": "85296374185296",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416064728
+    },
+    {
+      "_id": "5e8a77f2253f5000301a649a",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Dick ",
+      "lastName": "Tracy",
+      "designations": [
+        "5e8442eb30063d00292025d9",
+        "5e84431b30063d00292025da",
+        "5e84432830063d00292025db",
+        "5e84433530063d00292025dc",
+        "5e84433e30063d00292025dd",
+        "5e84435730063d00292025de"
+      ],
+      "employeeNumber": "1236489",
+      "contactDetails": {
+        "contactNumber": "0824566633",
+        "altContactNumber": "0986532741",
+        "email": "dick@tracy.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "34.0928092,-118.3286614",
+        "addressLocation": "Hollywood, Los Angeles, CA, USA",
+        "streetViewImage": "",
+        "extraAddress": "",
+        "postalCode": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d14c1f73888080bd88ac5"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "securityCode": 75837,
+      "title": "1",
+      "idNumber": "8523214465423",
+      "dateofbirth": "2020-04-04T22:00:00.000Z",
+      "systemuser": "5d3146494a75dd5ec1374846",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416074503,
+      "customerLink": "5e8a7cf8253f5000301a64c9",
+      "descriptiveTags": [
+        "5e86d5e2f12ee59d255b0c3c",
+        "5e86d5feabd253518be56f74",
+        "5e86d60b687c77db87fb25d8",
+        "5e86d623eb340ddf4eea7ce6",
+        "5e86d6334a1ae70365e2e886"
+      ],
+      "nextKinName": "N/A"
+    },
+    {
+      "_id": "5e8d12b3f73888080bd88abd",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Pieter-Steph",
+      "lastName": "Du Toit",
+      "designations": [
+        "5e84433e30063d00292025dd"
+      ],
+      "employeeNumber": "852963",
+      "contactDetails": {
+        "contactNumber": "9638527412",
+        "altContactNumber": "0748529632",
+        "email": "psdutiot@gmail.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "-29.4375777,31.22257129999999",
+        "addressLocation": "Dolphin Coast, South Africa",
+        "streetViewImage": "",
+        "extraAddress": "",
+        "postalCode": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d13a6f73888080bd88ac1"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "securityCode": 67944,
+      "title": "1",
+      "idNumber": "96385274196852",
+      "systemuser": "5e8b225a04e1e3029a527ff1",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416075507,
+      "customerLink": "5e8a7cf8253f5000301a64c9",
+      "dateofbirth": "1998-05-24T22:00:00.000Z",
+      "descriptiveTags": [
+        "5e86d5e2f12ee59d255b0c3c",
+        "5e86d5feabd253518be56f74",
+        "5e86d60b687c77db87fb25d8",
+        "5e86d623eb340ddf4eea7ce6",
+        "5e86d6334a1ae70365e2e886"
+      ]
+    },
+    {
+      "_id": "5e8d12f7f73888080bd88abe",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Andre",
+      "lastName": "Esterhuizen",
+      "designations": [
+        "5e8442eb30063d00292025d9"
+      ],
+      "contactDetails": {
+        "contactNumber": "74458963256",
+        "altContactNumber": "0837538691",
+        "email": "andre@spur.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "29.89736860000001,-95.55270569999999",
+        "addressLocation": "8927 Westwillow Dr, Houston, TX 77064, USA",
+        "streetViewImage": "",
+        "extraAddress": "Last House on the corner"
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d13d2f73888080bd88ac2"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "title": "1",
+      "idNumber": "9874563225856",
+      "dateofbirth": "2020-04-07T22:00:00.000Z",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416074144,
+      "employeeNumber": "963852",
+      "securityCode": 1848,
+      "customerLink": "5e8a7a70253f5000301a64c8",
+      "descriptiveTags": [
+        "5e86d5e2f12ee59d255b0c3c",
+        "5e86d5feabd253518be56f74",
+        "5e86d60b687c77db87fb25d8",
+        "5e86d623eb340ddf4eea7ce6",
+        "5e86d6334a1ae70365e2e886"
+      ],
+      "nextKinContact": "08341257896",
+      "nextKinName": "Megan",
+      "nextKinRelationship": "Wife",
+      "systemuser": "5e32d2f61d2ff810c24c9e6b"
+    },
+    {
+      "_id": "5e8d133ff73888080bd88abf",
+      "nodeId": "5e72a36b4c3e1706b6c594fd",
+      "createdByNodeId": "5e72a36b4c3e1706b6c594fd",
+      "firstName": "Francois",
+      "lastName": "Steyn",
+      "designations": [
+        "5e84433e30063d00292025dd"
+      ],
+      "employeeNumber": "965874123",
+      "contactDetails": {
+        "contactNumber": "986532741258",
+        "altContactNumber": "0720724569",
+        "email": "frans@steyned.co.za"
+      },
+      "address": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "country": "",
+        "gpsCoordinates": "-29.84757489999999,31.0349434",
+        "addressLocation": "North Beach, Durban, 4001, South Africa",
+        "streetViewImage": "",
+        "extraAddress": ""
+      },
+      "images": {
+        "largeLogo": {
+          "_id": "5e8d1413f73888080bd88ac3"
+        }
+      },
+      "organisationId": "5d318bd14a75dd5ec137494e",
+      "active": true,
+      "identityCodes": [],
+      "securityCode": 97334,
+      "title": "1",
+      "idNumber": "986532125478",
+      "dateofbirth": "1988-12-25T22:00:00.000Z",
+      "selectedNodeKeys": [
+        "5e8ec5a6850e2f0aa1bea42b"
+      ],
+      "lastUpdated": 20200416074624,
+      "descriptiveTags": [
+        "5e86d5e2f12ee59d255b0c3c",
+        "5e86d5feabd253518be56f74",
+        "5e86d60b687c77db87fb25d8",
+        "5e86d623eb340ddf4eea7ce6",
+        "5e86d6334a1ae70365e2e886"
+      ],
+      "systemuser": "5d317e5c4a75dd5ec13748bd",
+      "customerLink": "5e8a7cf8253f5000301a64c9",
+      "nextKinContact": "0741857896",
+      "nextKinName": "Mrs Steyn",
+      "nextKinRelationship": "Wife"
+    }
+  ]
