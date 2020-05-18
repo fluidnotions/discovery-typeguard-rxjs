@@ -1,8 +1,9 @@
 import { assertType } from "typescript-is";
 import { Observable, iif, of, combineLatest } from "rxjs";
-import { map, retryWhen, concatMap, delay } from "rxjs/operators";
+import { map, retryWhen, concatMap, delay, catchError, tap } from "rxjs/operators";
 import { Designation } from "./model-ref/designation.model";
 import { Employee } from "./model-ref/employee.model";
+import { TransTypeGuardUtil } from "./trans-type-guard-util.class";
 
 const assertCombinedCollectionItemTypes = (
   isAssertFunc1: (items: any) => any,
@@ -23,7 +24,7 @@ const assertCombinedCollectionItemTypes = (
               of(e).pipe(
                 map((err) => {
                   console.warn(
-                    `type assertion failed in transformer, will retry`
+                    `retry count 4 exceeded, type assertion failed in transformer`
                   );
                   throw err;
                 })
@@ -35,18 +36,28 @@ const assertCombinedCollectionItemTypes = (
     );
 };
 
-let designations = require("../designations.json");
-console.log(`DEBUG: designations$`, designations.length)
-let employees = require("../employees.json");
-console.log(`DEBUG: employees$`, employees.length)
+let designations = []//require("../designations.json");
+console.log(`DEBUG: designations$`, designations.length);
+let employees = []//require("../employees.json");
+console.log(`DEBUG: employees$`, employees.length);
 
 try {
   combineLatest(of(designations), of(employees))
     .pipe(
-      assertCombinedCollectionItemTypes(
-        (items) => assertType<Designation[]>(items),
+      TransTypeGuardUtil.assertCombinedCollectionItemTypes(
+        (items) => {
+          debugger
+          assertType<Designation[]>(items)
+        },
         (items) => assertType<Employee[]>(items)
-      )
+      ),
+      map((combinded: [any[], any[]]) => {
+        console.log(`DEBUG: combinded`, combinded.map(c => `${c.length}, `).join(''));
+      }),
+      catchError((err: any) => {
+        console.log(err.message);
+        return of()
+      })
     )
     .subscribe();
 } catch (err) {

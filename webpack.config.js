@@ -6,7 +6,7 @@ const typescriptIsTransformer = require('typescript-is/lib/transform-inline/tran
 
 var webpackConfig = {
     watch: false,
-    mode: "development",
+    mode: "production",
     entry: '/media/justin/3645492238405425/workspace/inspect/tsis/src/main',
     output: {
         path: '/media/justin/3645492238405425/workspace/inspect/tsis/dist',
