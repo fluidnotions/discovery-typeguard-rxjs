@@ -1,6 +1,6 @@
 export interface Designation {
     id: string;
     name: string;
-    description?: string;
+    description: string;
     setting: any;
 }
