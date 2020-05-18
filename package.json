@@ -7,12 +7,12 @@
     "s": "ts-node -r tsconfig-paths/register src/main.ts",
     "ds": "tsnd --respawn src/main.ts",
     "build": "npx ttsc",
-    "run": "node ./dist/main.js"
+    "run": "node ./dist/main.js",
+    "br": "npm run build && npm run run"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@gaap/gp-pos-shared-models": "^0.3.5",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "reflect-metadata": "^0.1.13",

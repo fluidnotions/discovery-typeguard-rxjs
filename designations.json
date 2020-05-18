@@ -1,6 +1,6 @@
 [
   {
-    "_id": "5e8442eb30063d00292025d9",
+    "id": "5e8442eb30063d00292025d9",
     "name": "Owner / Store Manager",
     "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",
@@ -63,9 +63,8 @@
     ]
   },
   {
-    "_id": "5e84431b30063d00292025da",
+    "id": "5e84431b30063d00292025da",
     "name": "Middle Manager",
-    "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",
     "nodeId": "5e72a36b4c3e1706b6c594fd",
     "setting": {
@@ -126,7 +125,7 @@
     ]
   },
   {
-    "_id": "5e84432830063d00292025db",
+    "id": "5e84432830063d00292025db",
     "name": "Junior Manager",
     "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",
@@ -190,7 +189,7 @@
     ]
   },
   {
-    "_id": "5e84433530063d00292025dc",
+    "id": "5e84433530063d00292025dc",
     "name": "Barman",
     "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",
@@ -254,7 +253,7 @@
     ]
   },
   {
-    "_id": "5e84433e30063d00292025dd",
+    "id": "5e84433e30063d00292025dd",
     "name": "Kitchen Staff",
     "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",
@@ -318,7 +317,7 @@
     ]
   },
   {
-    "_id": "5e84435730063d00292025de",
+    "id": "5e84435730063d00292025de",
     "name": "Waiter / Service Staff",
     "description": "",
     "organisationId": "5d318bd14a75dd5ec137494e",

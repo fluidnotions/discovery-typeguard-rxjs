@@ -1,7 +1,8 @@
 import { assertType } from "typescript-is";
-import { Employee, Designation } from "@gaap/gp-pos-shared-models";
 import { Observable, iif, of, combineLatest } from "rxjs";
 import { map, retryWhen, concatMap, delay } from "rxjs/operators";
+import { Designation } from "./model-ref/designation.model";
+import { Employee } from "./model-ref/employee.model";
 
 const assertCombinedCollectionItemTypes = (
   isAssertFunc1: (items: any) => any,
