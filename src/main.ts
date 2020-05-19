@@ -1,4 +1,4 @@
-import { assertType } from "typescript-is";
+import { assertType } from "inspect-module/typescript-is";
 import { Observable, iif, of, combineLatest } from "rxjs";
 import { map, retryWhen, concatMap, delay, catchError, tap } from "rxjs/operators";
 import { Designation } from "./model-ref/designation.model";
