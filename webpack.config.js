@@ -2,7 +2,7 @@ const path = require('path');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
 const nodeModulesPath =  path.join(__dirname, './node_modules');
-const typescriptIsTransformer = require('typescript-is/lib/transform-inline/transformer').default
+const typescriptIsTransformer = require('inspect-module/typescript-is/lib/transform-inline/transformer').default
 
 var webpackConfig = {
     watch: false,
@@ -35,7 +35,7 @@ var webpackConfig = {
                 query: {
                     configFileName: path.join(__dirname, "./tsconfig.json"),
                     getCustomTransformers: program => ({
-                        before: [typescriptIsTransformer(program)]
+                        before: [typescriptIsTransformer(program, {verbose: true})]
                     })
                 }
             },

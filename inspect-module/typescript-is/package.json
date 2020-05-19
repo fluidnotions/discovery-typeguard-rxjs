@@ -1,0 +1,87 @@
+{
+  "_from": "typescript-is",
+  "_id": "typescript-is@0.16.0",
+  "_inBundle": false,
+  "_integrity": "sha512-yOw66+DU0wI6w0lmfe2xNGJQwrrkSMrC144S/6v9lriC3ZTVOid63XAEIFniZOWxilyukQP01PvVXvvvi4XIKQ==",
+  "_location": "/typescript-is",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "typescript-is",
+    "name": "typescript-is",
+    "escapedName": "typescript-is",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typescript-is/-/typescript-is-0.16.0.tgz",
+  "_shasum": "ce8d3a4494a408e57c21465f905c5ce670544d8c",
+  "_spec": "typescript-is",
+  "_where": "/media/justin/3645492238405425/workspace/inspect/tsis",
+  "author": {
+    "name": "Wouter van Heeswijk"
+  },
+  "bugs": {
+    "url": "https://github.com/woutervh-/typescript-is/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nested-error-stacks": "^2",
+    "reflect-metadata": ">=0.1.12",
+    "tsutils": "^3.17.1"
+  },
+  "deprecated": false,
+  "description": "TypeScript transformer that generates run-time type-checks.",
+  "devDependencies": {
+    "@types/mocha": "^7.0.1",
+    "@types/nested-error-stacks": "^2.1.0",
+    "@types/node": "^13.7.0",
+    "copy": "^0.3.2",
+    "mocha": "^7.0.1",
+    "reflect-metadata": "^0.1.12",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.7.5"
+  },
+  "engines": {
+    "node": ">=6.14.4"
+  },
+  "files": [
+    "lib/*",
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/woutervh-/typescript-is#readme",
+  "keywords": [
+    "TypeScript",
+    "compiler",
+    "transformer",
+    "type"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "typescript-is",
+  "optionalDependencies": {
+    "reflect-metadata": ">=0.1.12"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woutervh-/typescript-is.git"
+  },
+  "scripts": {
+    "build": "rimraf lib/ && tsc --project tsconfig.json && copy-cli \"src/**/*.d.ts\" \"lib/\"",
+    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "test": "npm run lint && npm run build && ttsc --project tsconfig-test.json && mocha"
+  },
+  "version": "0.16.0"
+}
